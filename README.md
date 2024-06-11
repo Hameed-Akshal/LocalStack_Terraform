@@ -1,1 +1,1 @@
-# LOcalStach_Terraform
+# LocalStach_Terraform
