@@ -17,8 +17,6 @@ provider "aws" {
   skip_requesting_account_id  = true
   endpoints {
     ec2     = "http://localhost:4566"
-    # vpc     = "http://localhost:4566"
-    # subnet  = "http://localhost:4566"
   }
   
 }
@@ -31,8 +29,6 @@ provider "aws" {
   skip_requesting_account_id  = true
   endpoints {
     ec2    = "http://localhost:4566"
-    # vpc    = "http://localhost:4566"
-    # subnet = "http://localhost:4566"
   }
   access_key = "test"
   secret_key = "test"
